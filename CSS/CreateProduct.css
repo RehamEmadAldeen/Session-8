@@ -1,0 +1,30 @@
+.create-product-Page{
+
+}
+
+.create-product-Page form{
+
+}
+
+.create-product-Page input{
+    width: 97%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 20px ;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 20px;
+    
+}
+
+.create-product-Page input[type = submit]{
+    font-size: 20px;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+}
+
+.create-product-Page input[type=submit]:hover{
+    opacity: 0.8;
+}

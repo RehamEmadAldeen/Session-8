@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Story Scape | Register Page</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <link rel="stylesheet" href="CSS/register.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html">
+                        <img src="logobooks0.png" class="brand" alt="logo">
+                    </a>
+                    <nav >
+                        <ul id="links">
+                            <li> <a href="login.html"> Sign In</a> </li>
+                            <li> <a href="register.html"> Sign Up</a> </li>
+                        </ul>
+                        <ul id="user_info">
+                            <li><a href="Profile.html" id="user"></a></li>
+                            <li><a href="favorites.html"> Favorites</a></li>
+                            <li><a href="myproducts.html"> My Products</a></li>
+
+                            <li class="shoppingCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge"></span>
+
+                                <div class="carts-products">
+                                    <div></div>
+                                    <a href="cartproducts.html"> View All Products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout"> Log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        <section class="section-form">
+            <h2> Register User </h2>
+            <form novalidate>
+                <input type="text" placeholder="Enter Username" id="username">
+                <input type="email" placeholder="Enter Email" id="email">
+                <input type="password" placeholder="Enter password" id="password">
+
+                <input type="submit" value="sign Up" id="sign_up">
+                 You already have Account <a href="login.html"> Register</a>
+
+            </form>
+        </section>
+
+        <script src="JS/register.js"></script>
+        
+    </body>
+</html>

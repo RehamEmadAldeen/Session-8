@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Story Scape | favorites Page</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <link rel="stylesheet" href="CSS/login.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html">
+                        <img src="logobooks0.png" class="brand">
+                    </a>
+                    <nav >
+                        <ul id="links">
+                            <li> <a href="login.html"> Sign In</a> </li>
+                            <li> <a href="register.html"> Sign Up</a> </li>
+                        </ul>
+                        <ul id="user_info">
+                            <li><a href="Profile.html" id="user"></a></li>
+                            <li><a href="favorites.html"> Favorites</a></li>
+                            <li><a href="myproducts.html"> My Products</a></li>
+
+                            <li class="shoppingCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge"></span>
+
+                                <div class="carts-products">
+                                    <div></div>
+                                    <a href="cartproducts.html"> View All Products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout"> Log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        <section class="home">
+            <div class="container">
+                <div class="products"></div>
+                <div class="noProducts"></div>
+            </div>
+            <a href="createProduct.html" class="create-product-icon"><i class="fa-solid fa-plus"></i></a>
+        </section>
+        <script src="JS/user.js"></script>
+        <script src="JS/cartMenu.js"></script>
+        <script src="JS\Fav.js"></script>
+        
+    </body>
+</html>

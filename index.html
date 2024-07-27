@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Story Scape | Home Page</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html">
+                        <img src="logobooks0.png" class="brand" alt="logo">
+                    </a>
+                    <!-- <div>
+                        <input type="text" id="search" placeholder="Book Title or Author">
+                    </div> -->
+                    <nav >
+                        <ul id="links">
+                            <li> <a href="login.html"> Sign In</a> </li>
+                            <li> <a href="register.html"> Sign Up</a> </li>
+                        </ul>
+                        <ul id="user_info">
+                            <li><a href="Profile.html" id="user"></a></li>
+                            <li><a href="favorites.html"> Favorites</a></li>
+                            <li><a href="myproducts.html"> My Products</a></li>
+
+                            <li class="shoppingCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge"></span>
+
+                                <div class="carts-products">
+                                    <div></div>
+                                    <a href="cartproducts.html"> View All Products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout"> Log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        <section class="home">
+            <div class="container">
+                <input type="text" id="search" placeholder="Book Title or Author">
+                <div class="products"></div>
+                <div class="products-filter">
+                    <select id="price-filter">
+                        <option value="" hidden>Sort By</option>
+                        <option value = "all">All</option>
+                        <option value = "most-popular">Most Popular</option>
+                        <option value="low-to-hight">Price low to Hight</option>
+                        <option value="hight-to-low">Price Hight to Low</option>
+                        
+                    </select>
+                </div>
+            </div>
+            
+            <a href="createProduct.html" class="create-product-icon"><i class="fa-solid fa-plus"></i></a>
+        </section>
+        <script src="JS/user.js"></script>
+        <script src="JS/data.js"></script>
+        <script src="JS/cartMenu.js"></script>
+        <script src="JS/Script.js"></script>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <button class="focus:outline-none justify-center flex items-center h-full whitespace-nowrap no-underline text-white from-teal-600 to-teal-400 bg-gradient-to-r hover:from-teal-400 hover:to-teal-600 h-10 w-full text-xs sm:text-sm transition-colors duration-200 ease-in min-h-[35px]" wire:click="addToCart" wire:loading.attr="disabled" type="button" title="Add to cart">
+                            
+    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="flex-shrink-0 w-5 h-5">
+        <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+    </svg>
+        </button> -->

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Story Scape | Create  Product Page</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <link rel="stylesheet" href="CSS/CreateProduct.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html">
+                        <img src="logobooks0.png" class="brand" alt="logo">
+                    </a>
+                    <!-- <div>
+                        <input type="text" id="search" placeholder="Book Title or Author">
+                    </div> -->
+                    <nav >
+                        <ul id="links">
+                            <li> <a href="login.html"> Sign In</a> </li>
+                            <li> <a href="register.html"> Sign Up</a> </li>
+                        </ul>
+                        <ul id="user_info">
+                            <li><a href="Profile.html" id="user"></a></li>
+                            <li><a href="favorites.html"> Favorites</a></li>
+                            <li><a href="myproducts.html"> My Products</a></li>
+
+                            <li class="shoppingCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge"></span>
+
+                                <div class="carts-products">
+                                    <div></div>
+                                    <a href="cartproducts.html"> View All Products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout"> Log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        <section class="create-product-Page">
+            <form id="create-form">
+                <input type="file" id="upload-image-file"/>
+                <input type="text" placeholder="Name Of Product..." id="Product-Name"/>
+                <input type="text" placeholder="Description..." id="Product-Desc"/>
+                <input type="text" placeholder="Name Of Author..." id="Product-AuthorName"/>
+                <input type="number" placeholder="Price..." id="Product-Price"/>
+                <input type="submit" value="Create">
+            </form>
+
+        </section>
+        <script src="JS/user.js"></script>
+        <script src="JS/data.js"></script>
+        <script src="JS/cartMenu.js"></script>
+        <script src="JS/Create-Product.js"></script>
+
+        
+    </body>
+</html>

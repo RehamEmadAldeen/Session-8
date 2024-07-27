@@ -299,6 +299,38 @@ nav li a:hover{
 }
 
 
+/************* Profile **********************/
+.user-avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+#edit-profile-form input{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+
+
+#edit-profile-form input[type = submit]{
+    font-size: 20px;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+}
+
+#edit-profile-form input[type=submit]:hover{
+    opacity: 0.8;
+}
+
+
 
 
 

@@ -154,17 +154,6 @@ function addedToFav(id){
 }
 
 // Filter Products By Price
-  
-
-
-
-
-
-
-
-
-
-
 
 
 // Edit Product
